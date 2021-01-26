@@ -78,10 +78,24 @@ margin_bottom = 78.0
 text = "Main Menu"
 next_scene_name = "res://levels/main_screen.tscn"
 
-[node name="button_exit" parent="pause_overlay/VBoxContainer" instance=ExtResource( 3 )]
+[node name="button_change_scene2" parent="pause_overlay/VBoxContainer" instance=ExtResource( 4 )]
 margin_top = 82.0
 margin_right = 400.0
 margin_bottom = 119.0
+text = "Load Level 1"
+next_scene_name = "res://levels/level_1.tscn"
+
+[node name="button_change_scene3" parent="pause_overlay/VBoxContainer" instance=ExtResource( 4 )]
+margin_top = 123.0
+margin_right = 400.0
+margin_bottom = 160.0
+text = "Load Level 2"
+next_scene_name = "res://levels/level_2.tscn"
+
+[node name="button_exit" parent="pause_overlay/VBoxContainer" instance=ExtResource( 3 )]
+margin_top = 164.0
+margin_right = 400.0
+margin_bottom = 201.0
 text = "Exit"
 
 [node name="tutorial_key_mapping" parent="pause_overlay" instance=ExtResource( 7 )]

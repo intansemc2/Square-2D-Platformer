@@ -16,6 +16,7 @@ func _ready() -> void:
     PlayerData.connect("player_die", self, "player_die")
     
     update_interface()
+    self.set_paused(false)
 
 func _unhandled_input(event: InputEvent) -> void:
     if (event.is_action_pressed("paused") and not self.is_player_dead):

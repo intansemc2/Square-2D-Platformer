@@ -1,6 +1,6 @@
 extends Actor
 
-export var score := 200
+export var score := 20
 
 ###################################################
 func _ready() -> void:
@@ -37,7 +37,7 @@ func _on_smash_detactor_area_entered(area: Area2D) -> void:
 
 
 func _on_Timer_timeout() -> void:
-    PlayerData.score += self.score
+    PlayerData.score = self.score
     self.queue_free()
 
 
