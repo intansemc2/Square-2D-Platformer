@@ -1,0 +1,10 @@
+[gd_scene format=2]
+
+[node name="tutorial_key_mapping" type="Label"]
+margin_right = 304.0
+margin_bottom = 48.0
+text = "W, <-: Go Left; D, ->: Go Right; Space: Jump; Esc, P: Pause/Resume; R: Quick Reset Level; F: Toggle Fullscreen"
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
